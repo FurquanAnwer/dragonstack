@@ -8,3 +8,4 @@ const p3 = new Dragon()
 console.log(p1,p2,p3);
 
  
+
