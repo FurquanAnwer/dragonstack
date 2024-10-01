@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "node .",
-    "dev" : "nodemon ."
+    "start": "node ./bin/server",
+    "dev": "nodemon ./bin/server",
+    "configure": "./bin/configure_db.sh"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "pg": "^8.13.0"
+  }
 }
